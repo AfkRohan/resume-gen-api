@@ -5,7 +5,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Initialize the GoogleGenerativeAI instance
-const API_KEY = "AIzaSyCf-i4ISHzegv3l7X4Y9UQNnZAkDfV8-VU";
+const API_KEY = "Your-API-Key";
 const genAI = new GoogleGenerativeAI(API_KEY);
 const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
